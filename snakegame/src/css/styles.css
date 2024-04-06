@@ -1,0 +1,27 @@
+.background {
+    background-color: black;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: rgb(180, 180, 180);
+    height: 50vh;
+    width: 50vh;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+
+}
